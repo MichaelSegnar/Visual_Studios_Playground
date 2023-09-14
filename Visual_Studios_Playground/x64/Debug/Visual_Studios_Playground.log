@@ -1,0 +1,5 @@
+﻿  DeckOfCards.cpp
+C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\DeckOfCards.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\DeckOfCards.cpp(286,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\DeckOfCards.cpp(448,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Visual_Studios_Playground.vcxproj -> C:\Users\oneco\source\repos\Visual_Studios_Playground\x64\Debug\Visual_Studios_Playground.exe
