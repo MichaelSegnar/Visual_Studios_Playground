@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "DeckOfCards.h"
+#include "Roulette.h"
 using namespace std;
 
 int main()
@@ -11,6 +12,7 @@ int main()
 		//Prints list of choices
 		cout << "Select a program:" << endl;
 		cout << "1. Deck of Cards" << endl;
+		cout << "2. Roulette" << endl;
 		cout << "0. Exit" << endl;
 
 		if (!(cin >> choice))//awaits integer choice. Resets if wrong value is made.
@@ -27,6 +29,9 @@ int main()
 			return 0; //ends program
 		case 1:
 			deckGame(); //plays Deck program
+			break;
+		case 2:
+			roulette(); //plays roulette program
 			break;
 		default:
 			cout << "Invalid choice. Please try again." << endl; //default resets choices
