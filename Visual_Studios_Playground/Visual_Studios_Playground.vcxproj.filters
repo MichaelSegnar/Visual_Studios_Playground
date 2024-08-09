@@ -24,6 +24,12 @@
     <ClCompile Include="Roulette.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RockPaperScissors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicChoices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeckOfCards.h">
@@ -31,6 +37,12 @@
     </ClInclude>
     <ClInclude Include="Roulette.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RockPaperScissors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicChoices.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

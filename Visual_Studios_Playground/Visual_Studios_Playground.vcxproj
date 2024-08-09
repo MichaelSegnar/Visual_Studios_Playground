@@ -127,12 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BasicChoices.cpp" />
     <ClCompile Include="DeckOfCards.cpp" />
+    <ClCompile Include="RockPaperScissors.cpp" />
     <ClCompile Include="Roulette.cpp" />
     <ClCompile Include="Visual_Studios_Playground.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BasicChoices.h" />
     <ClInclude Include="DeckOfCards.h" />
+    <ClInclude Include="RockPaperScissors.h" />
     <ClInclude Include="Roulette.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

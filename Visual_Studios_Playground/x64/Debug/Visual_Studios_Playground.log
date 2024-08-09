@@ -1,4 +1,5 @@
-﻿  Roulette.cpp
-C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\Roulette.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\Roulette.cpp(593,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  RockPaperScissors.cpp
+C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\RockPaperScissors.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\RockPaperScissors.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\oneco\source\repos\Visual_Studios_Playground\Visual_Studios_Playground\RockPaperScissors.cpp(37,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Visual_Studios_Playground.vcxproj -> C:\Users\oneco\source\repos\Visual_Studios_Playground\x64\Debug\Visual_Studios_Playground.exe

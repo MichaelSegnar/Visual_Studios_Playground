@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <time.h>
 #include "DeckOfCards.h";
+#include "BasicChoices.h";
 using namespace std;
 
 class Card
@@ -378,8 +379,7 @@ void drawCards()
 
 void transfer(string destination)//returning Cards from one place to another
 {
-	char transfering = 'y';//variable for loop
-	while (transfering == 'y')
+	while (true)//loops until no more cards from source or user chooses to end
 	{
 		Card* fromHere[52];//Create new array for original pile
 		int fSize = 0;
@@ -495,23 +495,14 @@ void transfer(string destination)//returning Cards from one place to another
 		}
 		else
 		{
-			cout << "Would you like to continue transfering? (y/n)" << endl;//Check if user wants to keep discarding
-			if (!(cin >> transfering))//awaits character choice. Selects Invalid Choice is input is not char
-			{
-				cin.clear();
-				cin.ignore(40, '\n');
-				transfering = 'x';
-			}
-			if (transfering != 'y' && transfering != 'n')//Use n as default option
-			{
-				cout << "Invalid option. 'n' selected by default." << endl;
-			}
-			else if (transfering == 'y')//Show new hand if user discards again
+			if (yesNo("transfering"))
 			{
 				show();
 			}
-			cin.clear();
-			cin.ignore(40, '\n');
+			else
+			{
+				break;
+			}
 		}
 	}
 }

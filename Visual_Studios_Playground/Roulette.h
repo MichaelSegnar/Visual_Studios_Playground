@@ -31,7 +31,3 @@ int checkingBets(Slot* winner);
 
 //Determines winning number
 Slot* spin();
-
-//For selecting choices
-int choice(int numOfChoices);
-bool yesNo(string action);
